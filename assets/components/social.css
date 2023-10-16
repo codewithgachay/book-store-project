@@ -1,0 +1,18 @@
+.social-set-image {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    column-gap: 20px;
+    padding:13px;
+}
+
+.social-set-text h3{
+ font-size: 18px;
+ font-weight: bolder;
+ /* margin-bottom: 20px; */
+}
+
+.social-media{
+    position: absolute;
+    top: 200px;
+}
