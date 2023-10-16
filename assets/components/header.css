@@ -1,0 +1,51 @@
+
+
+header {
+   
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 10;
+  }
+  
+  .head li {
+    font-family: Montserrat, Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 196.187%;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+  }
+  
+  navbar {
+    width: 100%;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+  }
+  
+  #pic1 {
+    margin-right: 100px;
+  }
+  
+  #join1 {
+    margin-left: 150px;
+  }
+  
+  a {
+    color: #5a5753;
+    text-decoration: none;
+  }
+  
+ 
+
+  .header-hover-class {
+
+ color: orangered;
+text-decoration: underline;
+      
+  }
