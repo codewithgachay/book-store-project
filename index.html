@@ -7,11 +7,20 @@
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="/assets/font/font.css">
     <link rel="stylesheet" href="assets/components/header.css" />
-    <link rel="stylesheet" href="./assets/components/social.css">
     <link rel="stylesheet" href="assets/components/body.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
   </head>
   <body>
+    <div id="popup" class="close-popup">
+      <div class="register">
+        <h2>Join us</h2>  
+          <form action="" class="form-login">
+              <input type="text" placeholder="Full name" name="fname" ><br>
+              <input type="email" placeholder="Email" name="email"><br>
+              <input type="submit" value="Join" class="button">
+          </form>
+      </div>
+  </div>
     <header>
       <navbar>
         <ul class="head">
@@ -25,7 +34,7 @@
           </div>
 
           <li id="first-li">
-            <a href="#"><h4>Home</h4></a>
+            <a href="#" class="header-hover-class"><h4>Home</h4></a>
           </li>
           <li><a href="./assets/pages/catalog.html">Catalog</a></li>
           <li><a href="./assets/pages/about.html">About Store</a></li>
@@ -36,26 +45,74 @@
               id="join-logo"
               src="https://eacamp.github.io/book-store-final-project/src/img/icon/user.svg"
               alt="pic2"
-            /><a href="./assets/pages/popup-join-us.html">Join Us</a>
+            /><a href="#popup">Join Us</a>
           </li>
         </ul>
       </navbar>
+     
     </header>
 
     <main>
-
+<section id="section-1">
+  <div class="section-1-left">
+    <h1>Books from A to Z</h1>
+    <p>In our store you can find a book for every taste. A large assortment. Nice prices. Interesting stories.</p>
+    <button>Go to catalog</button>
+  </div>
+  <div class="section-1-right">
+   <div id="background-image-1" class="rectangles"></div>
+      <div id="background-image-2" class="rectangles"></div>
+  <div id="background-image-3" class="rectangles"></div>
+    <div id="background-image-4" class="rectangles"></div>
+    <img src="./assets/image/home-books.png" alt="home-books-photo">
+  </div>
+</section>
+<section id="section-2">
+  <h2>Catalog</h2>
+  <div class="catalog">
+  <div class="row">
+  <input class="catalog-buttons" value="Books"></input>
+  <input class="catalog-buttons" value="Electronic books"></input>
+  <input class="catalog-buttons" value="Audiobooks"></input>
+</div>
+<div class="row">
+  <input class="catalog-buttons" value="Toys, creativity"></input>
+  <input class="catalog-buttons" value="Book accessories"></input>
+  <input class="catalog-buttons" value="Notepads"></input>
+  </div>
+  <div class="row">
+  <input class="catalog-buttons" value="Board games"></input>
+  <input class="catalog-buttons" value="Present"></input>
+  <input class="catalog-buttons" value="Stock"></input>
+</div>
+</div>
+</section>
+<section id="section-3">
+  <h2>About Store</h2>
+  <div class="about">
+  <p class="about-amount">35</p><span>Branches  the country</span>
+  <p class="about-amount">898</p><span>Products  catalog</span>
+  <p class="about-amount">8659</p><span>Buyers</span>
+  <p class="about-amount">72</p><span>Hours delivery to cities</span>
+</div>
+</section>
+<section id="section-4">
+  <h2>Delivery</h2>
+  <p>We work without holidays and weekends! Residents of Kiev can receive an order on the day of its registration. Customers from other cities of Ukraine can receive an order within 1-5 days, depending on the location of the settlement and the selected delivery method. Orders over UAH 1000 are delivered free of charge *. You can see the available methods, exact terms and cost of delivery during checkout in the order basket, aafter selecting the delivery city.
+    More details</p>
+</section>
 
       
-      <!-- <section class="social-media">
+      <section class="social-media">
         <div class="social-set-text">
       <h3>Follow us on social media</h3>
+    </div>
       <div class="social-set-image">
         <img src="./assets/image/facebook.png" alt="facebook">
         <img src="./assets/image/twitter.png" alt="twitter">
         <img src="./assets/image/instagram.png" alt="instagram">
       </div>
-    </div>
-    </section> -->
+    </section>
 
     </main>
 
