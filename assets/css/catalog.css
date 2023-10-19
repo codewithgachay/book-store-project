@@ -225,6 +225,10 @@ main {
         column-gap: 30px;
     }
 
+    .list-container-02 li {
+      font-size: 0.5rem;
+    }
+
     .list-container .first-li {
         width: 100%;
         display: flex;
