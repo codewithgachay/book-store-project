@@ -1,51 +1,81 @@
+html {
+  font-size: 16px;
+}
 
-
-header {
-   
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 10;
-  }
-  
-  .head li {
-    font-family: Montserrat, Georgia, "Times New Roman", Times, serif;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 196.187%;
-    display: flex;
-    padding: 25px;
-    align-items: center;
-  }
-  
-  navbar {
-    width: 100%;
-  }
-  
-  ul {
+.container-header {
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: blueviolet; */
     display: flex;
     justify-content: space-between;
-    justify-content: center;
+    padding: 10px;
   }
   
-  #pic1 {
-    margin-right: 100px;
-  }
   
-  #join1 {
-    margin-left: 150px;
+  .hamburger {
+    display: none;
   }
-  
+  .header-ul {
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+  }
+  .header-ul li,
   a {
-    color: #5a5753;
+    list-style: none;
+    color: #241400;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 196.187%;
     text-decoration: none;
   }
   
- 
-
-  .header-hover-class {
-
- color: orangered;
-text-decoration: underline;
-      
+  .join-us {
+    display: flex;
+    padding-top: 6px;
+    gap: 5px;
   }
+  
+  .join-us img{
+    height: 15px;
+    padding-top: 8px;
+  }
+
+  
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+      padding-top: 10px;
+    }
+  
+    .hamburger img {
+      height: 17px;
+    }
+    .hamburger-png{
+      height: 15px;
+    }
+  
+    .header-ul {
+      display: none;
+    }
+  
+    .join-us {
+      display: none;
+    }
+  
+    .hamburger .user-logo img{
+      height: 35px;
+    }
+    
+    .user-icon{
+      height: 25px;
+    }
+
+  
+  
+  }
+  
