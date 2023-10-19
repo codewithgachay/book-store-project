@@ -4,63 +4,119 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="/assets/font/font.css">
-    <link rel="stylesheet" href="assets/components/header.css" />
-    <link rel="stylesheet" href="./assets/components/social.css">
-    <link rel="stylesheet" href="assets/components/body.css" />
-    <link rel="stylesheet" href="assets/css/index.css" />
-    
+    <link rel="stylesheet" href="assets/css/reset.css"/>
+    <link rel="stylesheet" href="assets/components/header.css"/>
+    <link rel="stylesheet" href="assets/components/body.css"/>
+    <link rel="stylesheet" href="assets/css/index.css"/>
   </head>
   <body>
-    <header>
-      <navbar>
-        <ul class="head">
-          <div>
-            <li id="pic1">
-              <img
-                src="https://eacamp.github.io/book-store-final-project/src/img/icon/logo-color.svg"
-                alt="logo1"
-              />
-            </li>
-          </div>
-
-          <li id="first-li">
-            <a href="#"><h4>Home</h4></a>
-          </li>
-          <li><a href="./assets/pages/catalog.html">Catalog</a></li>
-          <li><a href="./assets/pages/about.html">About Store</a></li>
-          <li><a href="./assets/pages/contact.html">Contact Us</a></li>
-          <li><a href="./assets/pages/search.html">Search</a></li>
-          <li id="join1">
+    <div id="popup" class="close-popup">
+      <div class="register">
+        <h2>Join us</h2>  
+          <form action="" class="form-login">
+              <input type="text" placeholder="Full name" name="fname" ><br>
+              <input type="email" placeholder="Email" name="email"><br>
+              <input type="submit" value="Join" class="button">
+          </form>
+      </div>
+    </div>
+      <header class="container-header">
+        <div class="header-logo">
+          <img
+            src="https://eacamp.github.io/book-store-final-project/src/img/icon/logo-color.svg"
+            alt=""
+          />
+        </div>
+        <div class="header-ul">
+          <li><a href="../html/index.html">Home</a></li>
+          <li><a href="../html/catalog.html">Catalog</a></li>
+          <li><a href="../html/about-store.html">About Store</a></li>
+          <li><a href="../html/contact.html">Contact Us</a></li>
+          <li><a href="../html/search.html">Search</a></li>
+        </div>
+        <div class="header-join">
+          <div class="hamburger">
             <img
-              id="join-logo"
-              src="https://eacamp.github.io/book-store-final-project/src/img/icon/user.svg"
-              alt="pic2"
-            /><a href="./assets/pages/popup-join-us.html">Join Us</a>
-          </li>
-        </ul>
-      </navbar>
-    </header>
-
-    <main>
-
-
-      
-      <!-- <section class="social-media">
+            src="./assets/image/T-admin-icons.png" alt="" class="user-icon">
+            <img src="./assets/image/hamburger.png" alt="" class="hamburger-png">
+          </div>
+          <div class="join-us">
+            <img src="./assets/image/T-admin-icons.png" alt="" class="desktop-icon">
+            <a href="./index.html">Join Us</a>
+          </div>
+        </div>
+      </header>
+    <main class="container">
+<section id="section-1">
+  <div class="section-1-left">
+    <h1>Books from A to Z</h1>
+    <p>In our store you can find a book for every taste. A large assortment. Nice prices. Interesting stories.</p>
+    <button>Go to catalog</button>
+  </div>
+  <div class="section-1-right">
+   <div id="background-image-1" class="rectangles">
+      <div id="background-image-2" class="rectangles"></div>
+  <div id="background-image-3" class="rectangles"></div>
+    <div id="background-image-4" class="rectangles"></div>
+    <img src="./assets/image/home-books.png" alt="home-books-photo">
+  </div>
+</div>
+</section>
+<section id="section-2">
+  <h2>Catalog</h2>
+  <div class="catalog">
+  <div class="row">
+  <div class="catalog-buttons">Books</div>
+  <div class="catalog-buttons">Electronic books</div>
+  <div class="catalog-buttons">Audiobooks</div>
+</div>
+<div class="row">
+  <div class="catalog-buttons">Toys, creativity</div>
+  <div class="catalog-buttons">accessories</div>
+  <div class="catalog-buttons">Notepads</div>
+  </div>
+  <div class="row">
+  <div class="catalog-buttons">Board games</div>
+  <div class="catalog-buttons">Present</div>
+  <div class="catalog-buttons">Stock</div>
+</div>
+</div>
+</section>
+<section id="section-3">
+  <h2>About Store</h2>
+  <div class="about">
+  <div class="about-store">
+    <p class="about-amount">35</p><span>Branches  the country</span>
+  </div>
+  <div class="about-store">
+  <p class="about-amount">898</p><span>Products  catalog</span>
+</div>
+<div class="about-store">
+  <p class="about-amount">8659</p><span>Buyers</span>
+</div>
+  <div class="about-store">
+  <p class="about-amount">72</p><span>Hours delivery to cities</span>
+</div>
+</div>
+</section>
+<section id="section-4">
+  <h2>Delivery</h2>
+  <p>We work without holidays and weekends! Residents of Kiev can receive an order on the day of its registration. Customers from other cities of Ukraine can receive an order within 1-5 days, depending on the location of the settlement and the selected delivery method. Orders over UAH 1000 are delivered free of charge *. You can see the available methods, exact terms and cost of delivery during checkout in the order basket, aafter selecting the delivery city.
+    More details</p>
+</section> 
+      <section class="social-media">
         <div class="social-set-text">
       <h3>Follow us on social media</h3>
+    </div>
       <div class="social-set-image">
         <img src="./assets/image/facebook.png" alt="facebook">
         <img src="./assets/image/twitter.png" alt="twitter">
         <img src="./assets/image/instagram.png" alt="instagram">
       </div>
-    </div>
-    </section> -->
-
+    </section>
     </main>
-
     <footer>
+      <div class="container">
       <nav class="footer-class">
         <div class="footer-section-01">
           <div class="footer-left-part">
@@ -68,7 +124,7 @@
               <li>
                 <img
                   src="assets/image/logo.png"
-                  alt=""
+                  alt="logo"
                 />
               </li>
             </ul>
@@ -103,7 +159,33 @@
             Policy
           </h3>
         </div>
+        <div class="respon-part">
+          <div class="div1">
+          <ul class="respon-ul">
+            <li>
+          <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="./assets/pages/catalog.html">Catalog</a>
+            </li>
+            <li>
+              <a href="./assets/pages/about.html">About Store</a>
+            </li>
+            <li>
+              <a href="./assets/pages/contact.html">Contact Us</a>
+            </li>
+            <li>
+              <a href="./assets/pages/search.html">Search</a>
+            </li>
+          </ul>
+          </div>
+          <div class="bottom-last-text">
+            <p>Library Bookstore EACamp</p>
+            <p>© 2003-2021 </p>
+          </div>
+        </div>
       </nav>
+    </div>
     </footer>
   </body>
 </html>
