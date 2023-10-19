@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+p,h1,h2,h3,h4,h5,h6,div,span{
+    font-family: 'Crimson Pro', serif;
+}
+
+.page-about{
+display: flex;
+align-items: center;
+justify-content: center;
+/* width: 75%; */
+padding: 10em 1.5em; 
+margin:0 auto;
+}
+.page-about .about-child{
+padding:0 15px;
+flex-wrap:wrap;
+height:300px;
+width:60%;
+padding-right: 4em;
+}
+
+.page-about .about-child h2{
+color: #241400;
+font-size: 36px;
+font-weight: 900;
+padding:0;
+margin-bottom: 1.5rem; 
+
+}
+.page-about .about-child p {
+color: #241400;
+font-size: 16px;
+/* text-align:justify; */
+padding:0;
+margin:0;
+line-height: 1.3;
+}
+.page-about .img2{
+   width: 40%;
+   height:100%;
+   display:flex;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   text-align: center;
+   vertical-align: baseline;
+}
+
+.page-about .img2 img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width:768px) {
+    .page-about{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center; 
+    }
+    .page-about .img2 img{
+        width:500px; 
+        height:200px;
+        padding: 0; 
+    }
+    .page-about .about-child p{
+        font-size: 15px;
+        text-align: center;
+        padding-right: 0;
+        
+    }
+    .about-child{
+        width: 500px;
+        margin-top: 50px;
+    }
+    .about-child h2{
+        text-align: center;
+    }
+}
