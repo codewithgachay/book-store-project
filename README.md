@@ -9,13 +9,6 @@ P.S. : file upload (book image), and identity authentication ("shopping cart" wi
 
 ## Screenshots
 
-![Alt text](<assets/image/screenshots/Screenshot 2023-10-24 at 12.24.32.png>)
-
-![Alt text](<assets/image/screenshots/Screenshot 2023-10-24 at 12.24.40.png>)
-
-![Alt text](<assets/image/screenshots/Screenshot 2023-10-24 at 12.24.58.png>)
-
-![Alt text](<assets/image/screenshots/Screenshot 2023-10-24 at 12.25.04.png>)
 
 ## Contributors are in pair groups
 - ** Aida & Elnur**
