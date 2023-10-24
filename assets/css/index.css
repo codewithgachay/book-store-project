@@ -6,27 +6,30 @@
   text-decoration: underline orangered;
    }
    .popup {
-    position: absolute;
-    width: 100%;
-    height: 300%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-color: rgba(0, 0, 0, 0.50);
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 90;
-}
+    row-gap: 25%;
+} 
 #popup img {
   margin-left: auto;
   padding: 20px;
-}
-.register {
-  margin: 20%;
 }
 .header-ul li a:hover {
   color: orangered;
 }
 .header-join a:hover{
   color: orangered;
+  cursor: pointer;
+}
+.header-join img:hover {
+  cursor: pointer;
 }
 .close-popup {
   display: none;
