@@ -8,16 +8,14 @@ Functionalities include login, adding and updating books, join us, searching.
 P.S. : file upload (book image), and identity authentication ("shopping cart" will be added)
 
 ## Screenshots
-![](<img width="1168" alt="image" src="https://github.com/codewithgachay/book-store-project/assets/126203375/b192dfc3-2535-4253-8c4a-5c2ffadcaf2d">)
 
-![](<img width="1168" alt="image" src="https://github.com/codewithgachay/book-store-project/assets/126203375/27c1d9eb-ed03-44c3-9aed-246469607018">
-)
+![Alt text](<assets/image/screenshots/Screenshot 2023-10-24 at 12.24.32.png>)
 
-![](<img width="1168" alt="image" src="https://github.com/codewithgachay/book-store-project/assets/126203375/2a96333a-0da3-4424-bc24-367d6d29f3a9">
-)
+![Alt text](<assets/image/screenshots/Screenshot 2023-10-24 at 12.24.40.png>)
 
-![](<img width="1168" alt="image" src="https://github.com/codewithgachay/book-store-project/assets/126203375/9caa2fde-cae3-412a-81cb-ef0c155b94a2">
-)
+![Alt text](<assets/image/screenshots/Screenshot 2023-10-24 at 12.24.58.png>)
+
+![Alt text](<assets/image/screenshots/Screenshot 2023-10-24 at 12.25.04.png>)
 
 ## Contributors are in pair groups
 - ** Aida & Elnur**
