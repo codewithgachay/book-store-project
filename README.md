@@ -11,10 +11,10 @@ Functionalities include admin login, admin logout, adding and updating books, jo
 
 
 ## Contributors are in pair groups
-- ** Aida & Elnur**
-- ** Aysel & Gachay **
-- ** Aygun & Tangiz **
-- ** Narmin & Elvin **
+- Aida & Elnur
+- Aysel & Gachay
+- Aygun & Tangiz
+- Narmin & Elvin
 
 ## Project repositories
 - CLIENT SIDE GIT REPO : https://github.com/codewithgachay/book-store-project.git
