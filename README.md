@@ -19,12 +19,11 @@ P.S. : file upload (book image), and identity authentication ("shopping cart" wi
 ![](<img width="1168" alt="image" src="https://github.com/codewithgachay/book-store-project/assets/126203375/9caa2fde-cae3-412a-81cb-ef0c155b94a2">
 )
 
-## Contributors
-- **Gachay** Project manager, catalog page functionality and appearance 
-- **Tangiz & Aygun ** Admin panel, Integration all details into farebase , Admin - Login  Adding of new book to inventory (with validation and file upload features),
-- **Aysel & Narmin **  Home page (CSS+HTML+JS )Book details, Integration, ome page Update Inventory
-- **Elnur & Aida:** CONTACT, SEARCH, ABOUT pages
-- **Elvin & Gachay** Contact us, navigation bars (header and footer)
+## Contributors are in pair groups
+- ** Aida & Elnur**
+- ** Aysel & Gachay **
+- ** Aygun & Tangiz **
+- ** Narmin & Elvin **
 
 ## Project repositories
 CLIENT SIDE GIT REPO : https://github.com/codewithgachay/book-store-project.git
