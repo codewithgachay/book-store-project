@@ -4,8 +4,8 @@ An online bookstore software projects that acts as a central database containing
 
 # Online-Bookstore
 Written in html, css, js, bootstrap, RST-API , GOOGLE FIREBASE real-time database using Visual Studio. 
-Functionalities include login, adding and updating books, join us, searching.
-P.S. : file upload (book image), and identity authentication ("shopping cart" will be added)
+Functionalities include admin login, admin logout, adding and updating books, join us, searching.
+- P.S. : File upload (book image), and identity authentication and shopping cart will be added 
 
 ## Screenshots (Will be added soon)
 
