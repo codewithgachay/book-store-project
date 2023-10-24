@@ -7,7 +7,7 @@ Written in html, css, js, bootstrap, RST-API , GOOGLE FIREBASE real-time databas
 Functionalities include login, adding and updating books, join us, searching.
 P.S. : file upload (book image), and identity authentication ("shopping cart" will be added)
 
-## Screenshots
+## Screenshots (Will be added soon)
 
 
 ## Contributors are in pair groups
