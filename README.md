@@ -26,9 +26,9 @@ P.S. : file upload (book image), and identity authentication ("shopping cart" wi
 - ** Narmin & Elvin **
 
 ## Project repositories
-CLIENT SIDE GIT REPO : https://github.com/codewithgachay/book-store-project.git
-ADMIN SIDE GIT REPO: https://github.com/TangizSalamova/Book_Store.git
+- CLIENT SIDE GIT REPO : https://github.com/codewithgachay/book-store-project.git
+- ADMIN SIDE GIT REPO: https://github.com/TangizSalamova/Book_Store.git
 
 ## Running the project
-CLIENT SIDE GIT PAGE : https://codewithgachay.github.io/book-store-project/index.html
-ADMIN SIDE GIT PAGE:
+- CLIENT SIDE GIT PAGE : https://codewithgachay.github.io/book-store-project/index.html
+- ADMIN SIDE GIT PAGE:
