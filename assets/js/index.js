@@ -1,4 +1,6 @@
-var joinUs = document.querySelector(".join-us");
+
+vCARD-SLIDER
+ar joinUs = document.querySelector(".join-us");
 var userIcon = document.querySelector(".user-icon");
 var popUp = document.querySelector("#popup");
 joinUs.addEventListener("click", function() {
