@@ -16,7 +16,7 @@ POP-UP COMPONENT
 SEARCH PAGE
 ![Alt text](image-3.png)
 
-## Contributors as pair programming groups
+## Contributors as in pair programming groups
 - Aida & Elnur 
 - Aysel & Gachay
 - Aygun & Tangiz
