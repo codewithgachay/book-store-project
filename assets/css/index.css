@@ -42,18 +42,18 @@ main {
   justify-content: center;
 }
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
 #section-1 {
   margin-top: 10%;
   display: flex;
-  column-gap: 10%;
+  column-gap: 7%;
   justify-content: center;
 }
 .section-1-left {
-width: 20%;
+width: 40%;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -78,22 +78,18 @@ word-wrap: break-word;
   border: 0;
   padding: 10px;
   margin-top: 25px;
-}
-.section-1-left button a {
   font-size: 1rem;
   font-weight: 900;
   line-height: 29.43px;
   word-wrap: break-word;
   color: white;
-  text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
 }
 .section-1-left button:hover {
   background-color: #E18A10;
 } 
 .section-1-right img{
-  /* width: 691px;
-  height: 488px; */
   width: 650px;
   height: 448px;
 }
@@ -131,11 +127,12 @@ row-gap: 30px;
   font-weight: 700;
   line-height: 27.47px;
   word-wrap: break-word;
+  cursor: pointer;
 }
 .catalog .row div:hover {
   width: 246px;
   height: 27px;
-  background-color:antiquewhite;
+  background-color: #eae5e5;
 }
 .catalog .row {
 display: flex;
@@ -144,7 +141,6 @@ column-gap: 5%;
 #section-3 {
   width: 80%;
   margin: 0 auto;
-  text-align: center;
 }
 #section-3 h2 {
   color: #241400;
@@ -154,6 +150,7 @@ line-height: 49.05px;
 word-wrap: break-word;
 text-align: center;
 margin-bottom: 20px;
+text-align: center;
 }
 .about-amount {
   color: #241400;
@@ -165,6 +162,8 @@ word-wrap: break-word;
 .about-store {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  column-gap: 15px;
 }
 #section-3 .about {
 display: flex;
@@ -294,6 +293,22 @@ footer {
   #section-1 {
     column-gap: 1%;
   }
+  .section-1-right img{
+    width: 500px;
+    height: 348px;
+  }
+  .catalog-buttons {
+    width: 180px;
+  }
+  .catalog .row {
+    column-gap: 15px;
+  }
+  .catalog {
+    row-gap: 15px; 
+  }
+  .catalog .row div:hover {
+    width: 183px;
+  }
 }
 @media (max-width: 768px) {
   main {
@@ -321,27 +336,30 @@ footer {
     width: 290px;
   }
   .section-1-right img{
-    width: 275px;
+    width: 310px;
     height: 260px;
   }
   .catalog-buttons {
     width: 274px;
+  }
+  .catalog .row div:hover {
+    width: 277px;
   }
   .catalog .row {
     flex-direction: column;
     row-gap: 15px;
   }
   .catalog {
-    row-gap: 15px;
-  }
-  .container {
-    width: 300px;
+    row-gap: 15px; 
   }
   #section-3 .about {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content:flex-start;
     align-items: flex-start;
+   }
+   #section-3 {
+    text-align: start;
    }
   .footer-right-part {
     display: none;
@@ -357,5 +375,11 @@ footer {
   }
   .respon-part {
     display: block;
+  }
+  .social-set-image img {
+    width: 15%;
+  }
+  .social-set-text {
+    font-size: 1.2rem;
   }
 }

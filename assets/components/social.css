@@ -17,3 +17,11 @@
     text-align: center;
     margin-bottom: 1%;
   }
+  @media (max-width: 768px) {
+    .social-set-image img {
+      width: 15%;
+    }
+    .social-set-text {
+      font-size: 1.2rem;
+    }
+  }

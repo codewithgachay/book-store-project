@@ -34,7 +34,6 @@ const h2 = document.querySelector(".register h2");
 const submit = document.querySelector(".submit");
 const errorP = document.createElement("p");
 form.append(errorP);
-// const joinUs = document.getElementById("a.join-us");
 const joinUsBtn = document.querySelector(".user-icon")
 var registerForm = {
   userName: "",
@@ -68,15 +67,41 @@ validateInputs: function(x, y) {
   this.userName = x.value;
   this.email = y.value;
   const userData = {
-    userName: this.userName,
+    userName: this.userName.toLowerCase(),
     email: this.email
     };
-   const snapshotKey = push(ref(db, "/userData")).key;
-   set(ref(db, "/userData/" + snapshotKey), userData);
-  //  joinUs.innerHTML= ""
-  //  const fName = document.createElement("p");
-  //  fName.innerHTML = this.userName;
-  //  joinUs.append("fName");
+  
+  //  checking joining
+  var found = false;
+   get(ref(db, '/userData')).then(snapshot=> {
+    const datas = snapshot.val();
+    console.log(datas);
+    for (let [key, user] of Object.entries(datas)) {
+      console.log(user);
+      if(user.userName === this.userName && user.email ===this.email) {
+        found = true;
+        window.localStorage.setItem("userName", this.userName);
+        window.localStorage.setItem("email", this.email);
+        break;
+      }}
+    })
+    console.log(window.localStorage.getItem("userName"));
+    console.log(userData.userName);
+     if(window.localStorage.getItem("userName")!==userData.userName) {
+      const snapshotKey = push(ref(db, "/userData")).key;
+      set(ref(db, "/userData/" + snapshotKey), userData);
+      joinUs.innerHTML = this.userName;
+      const joinBtn = document.querySelector(".hamburger.user-icon");
+      joinBtn.innerHTML = "";
+      joinBtn.innerText = this.userName;
+    }
+    else{
+      joinUs.innerHTML = this.userName;
+     
+      const joinBtn = document.querySelector(".hamburger.user-icon");
+      joinBtn.innerHTML = "";
+      joinBtn.innerText = this.userName;
+    }
    }
 }}
 form.addEventListener("submit", function(e){
