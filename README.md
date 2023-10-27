@@ -8,13 +8,13 @@ Functionalities include admin login, admin logout, adding and updating books, jo
 - P.S. : File upload (book image), and identity authentication and shopping cart will be added 
 ## Screenshots 
 HOME PAGE
-![Alt text](image-1.png)
-CATALOGE PAGE
-![Alt text](image.png)
+![Alt text](./assets/image/screenshots/image-1.png)
 POP-UP COMPONENT
-![Alt text](image-2.png)
+![Alt text](./assets/image/screenshots/image-2.png)
+CATALOGE PAGE
+![Alt text](./assets/image/screenshots/image.png)
 SEARCH PAGE
-![Alt text](image-3.png)
+![Alt text](./assets/image/screenshots/image-3.png)
 
 ## Contributors as in pair programming groups
 - Aida & Elnur 
