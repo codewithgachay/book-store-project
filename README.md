@@ -24,8 +24,6 @@ SEARCH PAGE
 
 ## Project repositories
 - CLIENT SIDE GIT REPO : https://github.com/codewithgachay/book-store-project.git
-- ADMIN SIDE GIT REPO: https://github.com/TangizSalamova/Book_Store.git
-
 ## Running the project
 - CLIENT SIDE GIT PAGE : https://codewithgachay.github.io/book-store-project/index.html
-- ADMIN SIDE GIT PAGE:
+- ADMIN SIDE GIT PAGE:https://codewithgachay.github.io/admin/
