@@ -142,6 +142,7 @@ button {
     font-style: normal;
     font-weight: 700;
     line-height: 70px; /* 70.627px */
+    margin-top: 50px;
 }
 
 .search-child1 input, .search-child1
@@ -156,6 +157,10 @@ button {
 }
 .search-child1 input{
     padding-left: 1em;
+}
+
+.search-child1 input{
+    padding: 10px;
 }
 
 .search-child1 button {
@@ -256,6 +261,7 @@ button {
     font-style: normal;
     font-weight: 700;
     line-height: 70px; 
+    margin-top: 50px;
 }
 
 .search-child1 input, .search-child1
@@ -270,6 +276,10 @@ button {
 }
 .search-child1 input{
     padding-left: 1em;
+}
+
+.search-child1 input{
+    padding: 10px;
 }
 
 .search-child1 button {
@@ -374,6 +384,7 @@ button {
     font-style: normal;
     font-weight: 700;
     line-height: 70px; 
+    margin-top: 50px;
 }
 
 .search-child1 input, .search-child1
@@ -389,6 +400,11 @@ button {
 .search-child1 input{
     padding-left: 1em;
 }
+
+.search-child1 input{
+    padding: 10px;
+}
+
 
 .search-child1 button {
     background-color: rgba(225, 106, 0, 1);
@@ -491,7 +507,10 @@ button {
     font-size: 2.25rem;
     font-style: normal;
     font-weight: 700;
+
     line-height: 70px; /* 70.627px */
+
+    
 }
 
 .search-child1 input, .search-child1
@@ -510,13 +529,13 @@ button {
 
 .search-child1 button {
     background-color: rgba(225, 106, 0, 1);
-    font-size: 0.6em;
+    /* font-size: 0.6em; */
     color: #FFF;
     text-align: center;
     font-family: "Crimson Text";
-    font-size: 1.875rem;
+    font-size: 1rem;
     font-style: normal;
-    font-weight: 400;
+    /* font-weight: 400; */
     line-height: normal;
 }
 

@@ -8,13 +8,13 @@ Functionalities include admin login, admin logout, adding and updating books, jo
 - P.S. : File upload (book image), and identity authentication and shopping cart will be added 
 ## Screenshots 
 HOME PAGE
-![Alt text](image-1.png)
-CATALOGE PAGE
-![Alt text](image.png)
+![Alt text](./assets/image/screenshots/image-1.png)
 POP-UP COMPONENT
-![Alt text](image-2.png)
+![Alt text](./assets/image/screenshots/image-2.png)
+CATALOGE PAGE
+![Alt text](./assets/image/screenshots/image.png)
 SEARCH PAGE
-![Alt text](image-3.png)
+![Alt text](./assets/image/screenshots/image-3.png)
 
 ## Contributors as in pair programming groups
 - Aida & Elnur 
@@ -24,8 +24,6 @@ SEARCH PAGE
 
 ## Project repositories
 - CLIENT SIDE GIT REPO : https://github.com/codewithgachay/book-store-project.git
-- ADMIN SIDE GIT REPO: https://github.com/TangizSalamova/Book_Store.git
-
 ## Running the project
 - CLIENT SIDE GIT PAGE : https://codewithgachay.github.io/book-store-project/index.html
-- ADMIN SIDE GIT PAGE:
+- ADMIN SIDE GIT PAGE:https://codewithgachay.github.io/admin/

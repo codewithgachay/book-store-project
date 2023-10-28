@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/reset.css"/>
-    <link rel="stylesheet" href="assets/components/header.css"/>
-    <link rel="stylesheet" href="assets/components/body.css"/>
-    <link rel="stylesheet" href="assets/css/index.css"/>
+    <link rel="stylesheet" href="./assets/css/reset.css"/>
+    <link rel="stylesheet" href="./assets/components/header.css"/>
+    <link rel="stylesheet" href="./assets/components/body.css"/>
+    <link rel="stylesheet" href="./assets/css/index.css"/>
     <script src="./assets/js/join.js" defer type="module"></script>
     <script src="./assets/js/index.js" defer type="module"></script>
     <!-- <script src="./assets/js/home.js" defer type="module"></script> -->
@@ -24,7 +24,7 @@
           </form>
       </div>
       </div>
-      <header class="container-header">
+      <header class="container container-header">
         <div class="header-logo">
           <img
             src="https://eacamp.github.io/book-store-final-project/src/img/icon/logo-color.svg"
@@ -32,20 +32,34 @@
           />
         </div>
         <div class="header-ul">
-          <li><a href="./index.html" class="header-hover-class">Home</a></li>
-          <li><a href="./assets/pages/catalog.html">Catalog</a></li>
-          <li><a href="./assets/pages/about.html">About Store</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./catalog.html">Catalog</a></li>
+          <li><a href="./about.html">About Store</a></li>
           <li><a href="./contact.html">Contact Us</a></li>
-          <li><a href="./assets/pages/search.html">Search</a></li>
+          <li><a href="./search.html">Search</a></li>
         </div>
-        <div class="header-join">
-          <div class="hamburger">
-            <img 
-            src="./assets/image/T-admin-icons.png" alt="" class="user-icon">
-            <img src="./assets/image/hamburger.png" alt="" class="hamburger-png">
+        <div class="navbar">
+          <div class="container nav-container">
+            <div class="user-icon">
+              <img src="./assets/image/user-regular.svg" alt="" />
+            </div>
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>
+            <div class="menu-items">
+              <li><a href="#">Aksiya</a></li>
+              <li><a href="#">Maqazin haqqinda</a></li>
+              <li><a href="#">Kataloq</a></li>
+              <li><a href="#">Chatdirma</a></li>
+              <li><a href="#">Bloq</a></li>
+            </div>
           </div>
+        </div>
           <div class="join-us">
-            <img src="./assets/image/T-admin-icons.png" alt="" class="desktop-icon">
+            <img src="./assets/image/icon.png" alt="" class="desktop-icon">
             <a>Join Us</a>
           </div>
         </div>

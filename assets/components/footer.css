@@ -56,7 +56,7 @@ html {
     margin-bottom: 6px;
   }
   
-  .btn {
+  .btn-call {
     border: 2px solid #e16a00;
     padding: 5px 22px;
     color: #e16a00;
@@ -109,7 +109,7 @@ html {
       display: block;
       color: #fff;
       font-size: 11px;
-     
+     list-style: none;
       
      } 
   
@@ -126,7 +126,7 @@ html {
       justify-content: center;
       padding: 20px 0px 0px 0px;
       color: #fff;
-      font-size: 0.938rem;
+      font-size: 0.738rem;
   
     }
    .library-logo {
@@ -136,4 +136,6 @@ html {
   
   
    }   
+
+  
 }
