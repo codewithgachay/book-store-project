@@ -85,5 +85,3 @@ form.addEventListener("submit", function(e){
  registerForm.validateInputs(f.fname, f.email );
 })
 
-
-
