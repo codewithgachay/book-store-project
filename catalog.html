@@ -1,43 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
-     <!-- Bootstrap CDN -->
-     <!-- <link
-     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-     rel="stylesheet"
-     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-     crossorigin="anonymous"
-   /> -->
-   <!-- swiper css CDN -->
-   <!-- <link
-     rel="stylesheet"
-     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-   />
- 
-   <link rel="stylesheet" href="./assets/css/catalog.css" />
-   <!-- Swiper JS -->
-   <!-- <script
-     defer
-     src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
-   ></script> -->
-   <link rel="stylesheet" href="./assets/css/reset.css" />
-   <link rel="stylesheet" href="./assets/font/font.css">
-   <link rel="stylesheet" href="./assets/components/header.css" />
-   <link rel="stylesheet" href="./assets/components/footer.css">
-   <link rel="stylesheet" href="./assets/components/social.css">
-   <link rel="stylesheet" href="./assets/components/body.css" />
-   <link rel="stylesheet" href="./assets/css/catalog.css">
-
-   
-  <!-- My own script -->
-  <script type="module" src="./assets/js/catalog.js" defer></script>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <!-- All project related links -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/font/font.css" />
+    <link rel="stylesheet" href="./assets/components/header.css" />
+    <link rel="stylesheet" href="./assets/components/footer.css" />
+    <link rel="stylesheet" href="./assets/components/social.css" />
+    <link rel="stylesheet" href="./assets/components/body.css" />
+    <link rel="stylesheet" href="./assets/css/catalog.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- My own css -->
+    <link rel="stylesheet" href="./assets/css/catalog.css" />
+    <!-- Swiper JS -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+    ></script>
+    <!-- My own js -->
+    <script src="./assets/js/catalog.js" type="module"  defer  ></script>
   </head>
-  <body>
-   <header class="container-header">
+  <header class="container-header">
     <div class="header-logo">
       <img
         src="https://eacamp.github.io/book-store-final-project/src/img/icon/logo-color.svg"
@@ -45,121 +41,213 @@
       />
     </div>
     <div class="header-ul">
-      <li><a href="./index.html">Home</a></li>
+      <li><a href="../../index.html">Home</a></li>
       <li><a href="./catalog.html">Catalog</a></li>
       <li><a href="./about.html">About Store</a></li>
       <li><a href="./contact.html">Contact Us</a></li>
       <li><a href="./search.html">Search</a></li>
     </div>
-    <div class="navbar">
-      <div class="container nav-container">
-        <div class="user-icon">
-          <img src="./assets/image/user-regular.svg" alt="" />
-        </div>
-        <input class="checkbox" type="checkbox" name="" id="" />
-        <div class="hamburger-lines">
-          <span class="line line1"></span>
-          <span class="line line2"></span>
-          <span class="line line3"></span>
-        </div>
-        <div class="menu-items">
-          <li><a href="#">Aksiya</a></li>
-          <li><a href="#">Maqazin haqqinda</a></li>
-          <li><a href="#">Kataloq</a></li>
-          <li><a href="#">Chatdirma</a></li>
-          <li><a href="#">Bloq</a></li>
-        </div>
+    <div class="header-jSlideroin">
+      <div class="hamburger">
+        <img src="./image/user-regular.svg" alt="" class="user-icon" />
+        <img src="../image/hamburger.png" alt="" class="hamburger-png" />
       </div>
-    </div>
       <div class="join-us">
-        <img src="./assets/image/icon.png" alt="" class="desktop-icon">
+        <img src="./image/icon.png" alt="" class="desktop-icon" />
         <a href="../html/join.html">Join Us</a>
       </div>
     </div>
   </header>
-    <!-- Main -->
+
+  <body>
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+  
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      @media (max-width: 760px) {
+        .swiper-button-next {
+          right: 20px;
+          transform: rotate(90deg);
+        }
+  
+        .swiper-button-prev {
+          left: 20px;
+          transform: rotate(90deg);
+        }
+      }
+    </style>
+  </head>
+  
+  <body>
     <main>
-      <!-- First Section -->
-      <section class="first-section">
-        <ul class="list-container">
-          <li class="first-li">
-            <h2>All Books</h2>
-          </li>
-          <ul class="list-container-02">
-            <li>Fantastic</li>
-            <li>Self-development</li>
-            <li>Baby</li>
-            <li>Classics</li>
+        <!-- First Section -->
+        <section class="first-section">
+          <ul class="list-container">
+            <li class="first-li">
+              <h2 class="all-books-click-me">All Books</h2>
+            </li>
+            <ul class="list-container-02">
+              <li>Fantastic</li>
+              <li>Self-development</li>
+              <li>Baby</li>
+              <li>Classics</li>
+            </ul>
           </ul>
-        </ul>
-      </section>
-      <!-- Second Section -->
-      <section class="second-section">
-        <img class="vector1" src="../image/Vector-aysel-1.png" alt="vector1" />
-        <div class="card" style="width: 18rem">
-          <img
-            class="card-img-top"
-            src="https://placehold.jp/130x180.png"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Order in Chaos</h5>
-            <p class="card-text">Konstantin Koptelov</p>
-            <a href="#" class="btn btn-primary">READ MORE</a>
+        </section>
+    <!-- Swiper -->
+    <div class="swiper">
+      <div class="swiper-wrapper">
+    <!-- slider -->
+        <div class="swiper-slide">
+          <!-- card -->
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="https://placehold.jp/130x180.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Order in Chaos</h5>
+              <p class="card-text">Konstantin Koptelov</p>
+              <a href="#" class="btn btn-primary">READ MORE</a>
+            </div>
           </div>
         </div>
-        <img class="vector2" src="../image/Vector-aysel-2.png" alt="vector2" />
-      </section>
-      <!-- Third Section -->
-      <h2 class="section-name">Bestseller</h2>
-      <section class="third-section">
-        <img class="vector1" src="../image/Vector-aysel-1.png" alt="vector1" />
-        <div class="card" style="width: 18rem">
-          <img
-            class="card-img-top"
-            src="https://placehold.jp/130x180.png"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Order in Chaos</h5>
-            <p class="card-text">Konstantin Koptelov</p>
-            <a href="#" class="btn btn-primary">READ MORE</a>
+        <div class="swiper-slide">Resize me!</div>
+        <div class="swiper-slide">Resize me!</div>
+        <div class="swiper-slide">Resize me!</div>
+        <div class="swiper-slide">Resize me!</div>
+        
+        
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Second section -->
+    <h2 class="section-name">Bestseller</h2>
+      <!-- Swiper -->
+      <div class="swiper">
+        <div class="swiper-wrapper">
+      <!-- slider -->
+          <div class="swiper-slide">
+            <!-- card -->
+            <div class="card" style="width: 18rem">
+              <img
+                class="card-img-top"
+                src="https://placehold.jp/130x180.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Order in Chaos</h5>
+                <p class="card-text">Konstantin Koptelov</p>
+                <a href="#" class="btn btn-primary">READ MORE</a>
+              </div>
+            </div>
           </div>
+         
         </div>
-        <img class="vector2" src="./assets/image/Vector-aysel-2.png" alt="vector2" />
-      </section>
-      <!-- Fourth Section -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+      <!-- section third -->
       <h2 class="section-name">New Releases</h2>
-      <section class="fourth-section">
-        <img class="vector1" src="./assets/image/Vector-aysel-1.png" alt="vector1" />
-        <div class="card" style="width: 18rem">
-          <img
-            class="card-img-top"
-            src="https://placehold.jp/130x180.png"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Order in Chaos</h5>
-            <p class="card-text">Konstantin Koptelov</p>
-            <a href="#" class="btn btn-primary">READ MORE</a>
+       <!-- Swiper -->
+       <div class="swiper">
+        <div class="swiper-wrapper">
+      <!-- slider -->
+          <div class="swiper-slide">
+            <!-- card -->
+            <div class="card" style="width: 18rem">
+              <img
+                class="card-img-top"
+                src="https://placehold.jp/130x180.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Order in Chaos</h5>
+                <p class="card-text">Konstantin Koptelov</p>
+                <a href="#" class="btn btn-primary">READ MORE</a>
+              </div>
+            </div>
           </div>
+          
         </div>
-        <img class="vector2" src="../image/Vector-aysel-2.png" alt="vector2" />
-      </section>
-      <section class="social-media"></section>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
 
-      <section class="social-media">
-        <div class="social-set-text">
-          <h3>Follow us on social media</h3>
-          <div class="social-set-image">
-            <img src="./assets/image/facebook.png" alt="facebook">
-            <img src="./assets/image/twitter.png" alt="twitter">
-            <img src="./assets/image/instagram.png" alt="instagram">
-          </div>
-        </div>
-      </section>
+
+  
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper', {
+        slidesPerView: 4,
+        direction: getDirection(),
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        on: {
+          resize: function () {
+            swiper.changeDirection(getDirection());
+          },
+        },
+        breakpoints: {
+        100: {
+            slidesPerView: 1,
+        },
+        558: {
+            slidesPerView: 2,
+        },
+        992: {
+            slidesPerView: 3,
+        },
+        1500: {
+            slidesPerView: 4,
+        }
+
+    },
+      });
+  
+      function getDirection() {
+        var windowWidth = window.innerWidth;
+        var direction = window.innerWidth <= 992 ? 'vertical' : 'horizontal';
+  
+        return direction;
+      }
+    </script>
     </main>
-
     <footer class="footer-part-container">
       <div class="footer-middle-part">
         <div class="footer-icon">
@@ -207,7 +295,7 @@
           <div class="div-call">
             <p>+38 (071) 339-16-26</p>
           </div>
-          <button class="btn-call">Request a call</button>
+          <button class="btn">Request a call</button>
         </div>
       </div>
       <div class="bottom-text">
@@ -216,6 +304,6 @@
           Policy
         </p>
       </div>
-      </footer>
+    </footer>
   </body>
 </html>
