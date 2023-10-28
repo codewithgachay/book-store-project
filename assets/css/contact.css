@@ -44,7 +44,9 @@
     padding-left: 28px;
     padding-top: 13px;
     padding-bottom: 110px;
-    margin-bottom: 85px;
+    margin-bottom: 60px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
   }
   
   .btn {
@@ -52,5 +54,43 @@
     color: #fff;
     padding: 8px 15px;
     border: none;
+    font-size: 1rem;
   }
   
+
+  @media (max-width: 768px) {
+  .middle-text {
+  padding-top: 60px;
+  }
+
+  .note input {
+    width: 93%;
+     /* margin-left: 0 auto;
+     margin-right: 0 auto; */
+  }
+
+  .middle-input  {
+    /* padding: 13px; */
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    /* justify-content: space-between; */
+    /* margin-left: 0 auto;
+    margin-right: 0 auto; */
+   
+  }
+
+  .middle-text h2 {
+    text-align: center;
+  }
+
+  .btn {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    padding: 0px 8px;
+
+  }
+}
