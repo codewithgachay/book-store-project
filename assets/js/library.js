@@ -31,6 +31,10 @@ export function setAllBooks(snapshot) {
 };
 
 //Set all books when you click the h2 element of the document
+export function returnAllBookH2Element(){
+    return allBookH2;
+};
+
 export function clickAndSetAllbooks(snapshot){
 setAllBooks(snapshot);
 };
