@@ -1,23 +1,18 @@
 //ALL IMOPTRED JAVASCRIPT FILES
-//EXPORTED FUNCTIONS FROM FIREBASE
-import {
-  ref,
-  set,
-  onValue,
-  get,
-  push,
-} from "https://www.gstatic.com/firebasejs/10.5.0/firebase-database.js";
-import { db } from "./firebase.js";
-
-//EXPORTED FUNCTIONS FROM LIBRARY
-import { setAllBooks,returnAllBookH2Element } from "./library.js";
-
+//----------------------------------------------------------------
+//EXPORTED FUNCTIONS FROM THE LIBRARY
+import { setAllBooks,returnH2AllBookElement,showAllBooks } from "./library.js";
+//----------------------------------------------------------------
 //ALL FUNCTIONS
-onValue(ref(db, "/Catalog"),snapshot => {
-  setAllBooks(snapshot);
-});
+//----------------------------------------------------------------
+//FUNCTION THAT SETS ALLBooks
+showAllBooks();
 
-//ALL BOOK HTML ELEMENT EVENT
+//FUNCTION SETS ALLBooks WHEN YOU CLICK ON THE ELEMENT H2 ALLBooks
+returnH2AllBookElement().addEventListener("click",() =>{
+  showAllBooks();
+
+});
 
 
 

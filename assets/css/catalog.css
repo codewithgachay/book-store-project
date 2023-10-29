@@ -267,6 +267,10 @@ body {
   padding: 0;
 }
 
+.all-books-click-me{
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   .hamburger {
     display: block;
