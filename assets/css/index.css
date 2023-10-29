@@ -1,33 +1,9 @@
 
 @import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
 @import url(../components/register.css);
-.header-hover-class {
-  color: orangered;
-  text-decoration: underline orangered;
-   }
-   /* .popup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.50);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    row-gap: 3%;
-} 
-#popup img {
-  margin-left: auto;
-  padding: 20px;
-} */
+
 .header-ul li a:hover {
   color: orangered;
-}
-.header-join a:hover{
-  color: orangered;
-  cursor: pointer;
 }
 .header-join img:hover {
   cursor: pointer;

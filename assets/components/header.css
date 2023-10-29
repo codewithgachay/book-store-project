@@ -29,7 +29,7 @@ html {
 a {
   list-style: none;
   color: #241400;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
@@ -41,8 +41,18 @@ a {
   display: flex;
   padding-top: 6px;
   gap: 5px;
+  cursor: pointer;
 }
-
+.join-us a:hover {
+  color: orangered;
+}
+.header-ul li a:hover {
+  color: orangered;
+}
+.header-hover-class {
+  color: orangered;
+  text-decoration: underline orangered;
+   }
 .join-us img {
   height: 15px;
   padding-top: 8px;
